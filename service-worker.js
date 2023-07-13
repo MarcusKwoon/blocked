@@ -16,7 +16,7 @@ Copyright 2015, 2019 Google Inc. All Rights Reserved.
 const OFFLINE_VERSION = 1;
 const CACHE_NAME = 'offline';
 // Customize this with a different URL if needed.
-const OFFLINE_URL = '/tBmsL3wa2PcQY8eAFwEQVdT34TC3U4saeQE8eYhft33S5PwhjPreRRG5hZcgvPJp2jcaTCLfU42kt69BzZcjhjmzTeqG2D2rYJz7.html';
+const OFFLINE_URL = '/';
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
